@@ -10,6 +10,7 @@
     "semi": "off",
     "spaced-comment": "off",
     "arrow-parens": "off",
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "eol-last": "off"
   }
 }
