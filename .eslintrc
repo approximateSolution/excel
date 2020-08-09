@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint", //используемый парсер - бабел
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "google"],
+  "rules": {
+    "semi": "off",
+    "spaced-comment": "off",
+    "arrow-parens": "off",
+    "comma-dangle": "off"
+  }
+}
