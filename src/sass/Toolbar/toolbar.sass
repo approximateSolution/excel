@@ -1,2 +1,16 @@
 @import "../mixins"
 @import "../var"
+
+.excel__toolbar
+  position: absolute
+  right: 0
+  left: 0
+  top: 50px
+  display: flex
+  align-items: center
+  height: $toolbar-height
+  padding: 0 10px
+  border-top: 1px solid $border-color
+  border-bottom: 1px solid $border-color
+  .button
+    @include button(#d3d3d3)
