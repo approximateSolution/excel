@@ -1,0 +1,20 @@
+@mixin button($color: green)
+  vertical-align: center
+  padding: 5px 5px
+  text-align: center
+  position: relative
+  color: rgba(0, 0, 0, .7)
+  & i
+    display: block
+    margin: 0 auto
+  &:active, &.active
+    color: $color
+  &:hover
+    background-color: $color
+    color: white
+    cursor: pointer
+
+@mixin clear-list()
+  list-style: none
+  margin: 0
+  padding: 0

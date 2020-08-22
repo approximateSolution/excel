@@ -44,7 +44,7 @@ module.exports = {
   },
   devtool: isDev ? 'source-map' : false, //добавление source-map к dev версии
   devServer: { // Dev Server для webpack
-    port: 3000, //указываем стандартный порт
+    port: 3002, //указываем стандартный порт
     hot: isDev
   },
   plugins: [

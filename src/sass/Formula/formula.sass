@@ -1,0 +1,27 @@
+@import "../mixins"
+@import "../var"
+
+.excel__formula
+  position: absolute
+  left: 0
+  right: 0
+  top: 100px
+  height: $formula-height
+  padding: 0px 20px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  border-bottom: 1px solid $border-color
+  .info
+    font-size: 18px
+    font-style: italic
+    border-right: 1px solid $border-color
+    height: $formula-height
+    line-height: $formula-height
+    display: block
+    min-width: 40px
+  .input
+    flex-grow: 1
+    height: $formula-height
+    padding: 4px
+    color: $black
